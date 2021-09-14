@@ -1,0 +1,169 @@
+.heder{
+    background-color:black;
+    color:white;
+    height:60px;
+    padding: 3px;
+    padding-right: 5px;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 0px 5px 0px 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.slogan{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px;
+    color:gray;
+    font-style: italic;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clr{
+    clear: both;
+}
+.mid{
+   
+    background-color: cornsilk;
+}
+.disp-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+hr{
+    background-color: gray;
+    color: gray;
+    width: 1100px;
+    margin-top: 12px;
+}
+.disp-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner{
+background-image: url("street.jpg");
+height: 350px;
+background-size: cover;
+}
+.banner-txt{
+text-align: center;
+color: white;
+}
+.heading1{
+    color: crimson;
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+    color: white
+}
+.btn1{
+    border:0px;
+    margin-right: 6px;
+    height: 30px;
+    width: 180px;
+    background-color: yellowgreen;
+    color: white;
+}
+.btn2{
+    border:0px;
+    height: 30px;
+    width: 180px;
+    background-color: blue;
+    color: white;
+}
+.brder{
+    margin:5px;
+    margin-bottom: 0px;
+    padding: 6px;
+    border: 1px dashed gray;
+}
+.im{
+    height:150px;
+    width: 200px;
+}
+.im2{
+    height: 50px;
+    width: 50px;
+   margin: 5px 1px 1px 1px;
+}
+.im3{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border:solid black 1px;
+    margin-left: 15px;
+}
+.txt{
+    color:grey;
+    font-weight: bold;
+    font-size: 15px;
+}
+.sty1{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 4px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.sty2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+    margin-top: 16px;
+    margin-left: 10px;
+    color:black;
+}
+.sty3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 4px;
+    margin-top: 16px;
+    margin-left: 10px;
+    color:grey;
+}
+.sty4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 4px;
+    margin-top: 16px;
+    margin-left: 10px;
+    color:grey;
+}
+.list{
+    padding: 1px;
+    list-style-type: none;
+    color: gray
+}
+.hding{
+    color: white;
+    margin: 4px;
+}
+.disp-row1{
+    display: flex;
+    justify-content: space-around;
+}
+.art{
+    margin: 20px;
+    margin-right: 25px;
+    padding: 25px;
+}
+.foot{
+    margin-top: 0px;
+    height: 200px;
+    background-color:black;
+    color:white;
+}
+@media screen and (max-width:510px){
+   .heder{
+       background-color:crimson;
+       height: 120px;
+   }
+}
